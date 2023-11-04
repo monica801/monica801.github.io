@@ -1,0 +1,49 @@
+body {
+    background-color: pink
+}
+
+.maincontainer {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+.Mainimage {
+    height: 300px;
+    width: 200px;
+
+}
+
+.telephone {
+    height: 20px;
+    width: 20px;
+}
+
+.mail {
+    height: 20px;
+    width: 20px;
+}
+
+.maincontainertwo {
+    background-color: white;
+    width: 50%;
+}
+
+.phonenumber {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+
+.email {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
