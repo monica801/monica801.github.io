@@ -1,9 +1,11 @@
 body {
-    background-color: pink
+
+    background-color: #FAE5D3;
 }
 
+
 .maincontainer {
-    background-color: white;
+    background-color: #FDF2E9;
     height: 100%;
     width: 50%;
 }
@@ -17,6 +19,8 @@ body {
 .telephone {
     height: 20px;
     width: 20px;
+
+
 }
 
 .mail {
@@ -25,8 +29,8 @@ body {
 }
 
 .maincontainertwo {
-    background-color: white;
-    width: 50%;
+    background-color: #FDF2E9;
+    width: 40%;
 }
 
 .phonenumber {
@@ -36,6 +40,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     align-content: stretch;
+
 }
 
 .email {
@@ -46,4 +51,33 @@ body {
     justify-content: flex-start;
     align-items: center;
     align-content: stretch;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.contact>div {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact img {
+    margin-right: 5px;
 }
